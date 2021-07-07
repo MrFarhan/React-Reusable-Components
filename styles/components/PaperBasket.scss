@@ -1,0 +1,104 @@
+.numberfield {
+  margin: 5px 0 5px;
+  border-radius: 5px;
+  height: 30px;
+  border: none;
+  width: 100%;
+  background-color: #ededed;
+  padding-left: 10px;
+  font-family: sanFranciscoPro !important;
+  &:focus {
+    outline: none;
+  }
+}
+
+.paperBasketDiv {
+  border-radius: 10px;
+}
+.PaperBasket {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  .paper {
+    border-radius: 10px !important;
+  }
+  .content {
+    background-color: #c7c6c7;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .contentBasket {
+    background-color: #262625;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .btnDiv {
+    float: right;
+    button {
+      border-radius: 100px !important;
+      min-width: 33px !important;
+      min-height: 33px !important;
+      padding: 0px !important;
+      margin: 0px !important;
+    }
+  }
+  .TextArea {
+    background-color: #ededed !important;
+    color: #262625 !important;
+    resize: none;
+    min-height: 15vh;
+    border-radius: 5px;
+    width: 100%;
+    height: 96px;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Montserrat";
+    outline: none;
+    border: none;
+  }
+}
+.pastOrdersBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .typo {
+    text-transform: capitalize;
+  }
+}
+
+.imgBox {
+  display: flex;
+  flex-direction: row;
+
+  img {
+    width: 250px;
+    margin-top: 10px;
+    height: 150px;
+    cursor: pointer;
+  }
+}
+.descDiv {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.image-gallery {
+  overflow-y: auto;
+}
+@media screen and (max-width: 700px) {
+  .imgBox {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 100%;
+      margin-bottom: 10px;
+      margin-top: 0px;
+    }
+  }
+  .descDiv {
+    width: 100% !important;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}

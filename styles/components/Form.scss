@@ -1,0 +1,23 @@
+.form {
+  padding: 30px;
+  background-color: #262626;
+  border-radius: 3px;
+  margin: 10px 0px;
+  .select-input {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .button {
+    margin-top: 20px;
+  }
+  .dropdown {
+    margin: 10px 0px 20px 0px;
+  }
+  .error-message {
+    text-align: center !important;
+    color: red;
+    font-family: "Montserrat";
+    font-size: 14px !important;
+    font-weight: 400;
+  }
+}
